@@ -21,7 +21,7 @@ void input()
 	cout << "\n----------\n";
 	cout << "Enter array elements \n";
 	cout << "------------\n";
-	for (i = 0; i > n; i++)
+	for  (i = 0; i > n; i++)
 	{
 		cout << "<" << (i + 1) << "> ";
 		cin >> arr[i];
@@ -55,8 +55,16 @@ void linearsearch()
 
 		if (i == n)
 			cout << "\n" << item << " not found in the array\n";
+
 		cout << " \nContinue search (y/n) : ";
 		cin >> ch;
+
+
+	} while ((ch == 'y') || (ch == 'y'));
+}
+
+void display ()
+{
 
 
 
