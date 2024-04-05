@@ -42,4 +42,5 @@ void linearsearch()
 
 		ctr = 0;
 		i = 0;
+		while (i < n)
 
